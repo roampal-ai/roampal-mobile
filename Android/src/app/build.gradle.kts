@@ -29,11 +29,11 @@ plugins {
 }
 
 android {
-  namespace = "com.google.ai.edge.gallery"
+  namespace = "com.roampal.mobile"
   compileSdk = 35
 
   defaultConfig {
-    applicationId = "com.google.aiedge.gallery"
+    applicationId = "com.roampal.mobile"
     minSdk = 31
     targetSdk = 35
     versionCode = 32
@@ -43,7 +43,7 @@ android {
     // Use the scheme of the "Redirect URLs" in HuggingFace app.
     manifestPlaceholders["appAuthRedirectScheme"] =
         "REPLACE_WITH_YOUR_REDIRECT_SCHEME_IN_HUGGINGFACE_APP"
-    manifestPlaceholders["applicationName"] = "com.google.ai.edge.gallery.GalleryApplication"
+    manifestPlaceholders["applicationName"] = "com.roampal.mobile.GalleryApplication"
     manifestPlaceholders["appIcon"] = "@mipmap/ic_launcher"
 
     testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
